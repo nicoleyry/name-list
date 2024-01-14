@@ -1,4 +1,4 @@
-// import '../styles/pager.scss';
+import '../styles/pager.scss';
 import { useState, useEffect } from "react";
 import isEmpty from "../isEmpty";
 

@@ -1,0 +1,30 @@
+@use './variables' as var;
+
+.Pager {
+	display: flex;
+	margin: 0 auto;
+	max-width: 500px;
+	justify-content: center;
+	gap: 20px;
+
+	& .btn {
+		cursor: pointer;
+		font-size: 30px;
+		font-weight: 700;
+		padding: 5px 10px;
+		border: 2px dotted var.$color-white;
+		-webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none;
+
+		&:hover,
+		&:active {
+			transform: translateY(3px);
+			color: var.$color-yellow;
+			border-color:var.$color-yellow;
+		}
+	}
+}

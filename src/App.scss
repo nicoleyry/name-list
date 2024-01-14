@@ -1,0 +1,28 @@
+@use './styles/variables' as var;
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+	font-size: 24px;
+}
+
+html, body {
+	height: 100vh;
+	background-color: var.$color-blue;
+}
+
+.App {
+	position: relative;
+	max-width: 500px;
+	height: auto;
+	color: var.$color-white;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	padding: 20px 0;
+	margin: 0 auto;
+	align-items: center;
+}

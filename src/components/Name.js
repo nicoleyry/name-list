@@ -1,4 +1,4 @@
-// import '../styles/name.scss';
+import '../styles/name.scss';
 import { useEffect, useState } from 'react';
 import isEmpty from '../isEmpty';
 
