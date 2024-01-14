@@ -1,6 +1,6 @@
 # Simple app showing name from the API data
 
-Live Site URL: [https://nicoleyry-name-list.netlify.app/]
+Live Site URL: [https://nicoleyry-name-list.netlify.app/](https://nicoleyry-name-list.netlify.app/)
 
 1. Get the data from [API](https://rickandmortyapi.com/api/character)
 
